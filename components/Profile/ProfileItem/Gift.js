@@ -16,11 +16,11 @@ import { useLogin } from '../../../Context/LoginProvider';
 const Gift = ({ navigation }) => {
   const { isLoggedIn } = useLogin();
   const onSubmitVoucher = () => {
-    if (!isLoggedIn) {
-      navigation.navigate('UserNavigator', { screen: 'Login' });
-    } else {
-      navigation.navigate('UserNavigator', { screen: 'uudaiUser' });
-    }
+    // if (!isLoggedIn) {
+    //   navigation.navigate('UserNavigator', { screen: 'Login' });
+    // } else {
+    //   navigation.navigate('UserNavigator', { screen: 'uudaiUser' });
+    // }
   };
   return (
     <View>
